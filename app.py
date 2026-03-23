@@ -13,9 +13,9 @@ age = st.slider("Age", 20, 60, 30)
 years_experience = st.slider("Years of Experience", 0, 30, 5)
 daily_meetings = st.slider("Daily Meetings", 0, 10, 2)
 hours_worked = st.slider("Hours Worked per Day", 4, 12, 8)
-internet_speed = st.slider("Internet Speed (Mbps)", 10, 200, 50)
-home_office_score = st.slider("Home Office Score (Work Environment out of 10)", 1, 10, 5)
-distractions = st.slider("Distractions per Day", 0, 15, 3)
+internet_speed = st.slider("Internet Speed ( in Mbps)", 10, 200, 50)
+home_office_score = st.slider("Home Office Score (Work Environment rating out of 10)", 1, 10, 5)
+distractions = st.slider("Number of Distractions per Day", 0, 15, 3)
 
 if st.button("Predict Productivity"):
 
